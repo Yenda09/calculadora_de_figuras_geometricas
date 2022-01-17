@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    width: 700px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+
+main section {
+    height: min-content;
+    align-self: center;
+}
